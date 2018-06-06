@@ -12,8 +12,8 @@
 支持三种访问协议：
 
 * HTTP协议: `https://github.com/Sung-yy/KnaitheScripts.git` 。
-* Git协议: `git://github.com/Sung-yy/KnaitheScripts` 。
-* SSH协议: `ssh://git@github.com/Sung-yy/KnaitheScripts` 。
+* Git协议: `git://github.com/Sung-yy/KnaitheScripts.git` 。
+* SSH协议: `ssh://git@github.com/Sung-yy/KnaitheScripts.git` 。
 
 ## 克隆版本库
 
