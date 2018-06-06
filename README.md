@@ -20,3 +20,8 @@
 操作示例：
 
     $ git clone git://github.com/Sung-yy/KnaitheScripts
+
+## git的操作指南
+
+网址：
+    http://www.worldhello.net/gotgithub/index.html
