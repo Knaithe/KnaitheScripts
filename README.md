@@ -1,6 +1,6 @@
 # 我的第一个GitHub项目
 
-这是项目 [KnaitheScripts](https://github.com/Sung-yy/KnaitheScripts) ，
+这是项目 [KnaitheScripts](https://github.com/Knaithe/KnaitheScripts) ，
 欢迎访问。
 
 这个项目的版本库是 **Git格式** ，在 Windows、Linux、Mac OS X
@@ -11,15 +11,15 @@
 
 支持三种访问协议：
 
-* HTTP协议: `https://github.com/Sung-yy/KnaitheScripts.git` 。
-* Git协议: `git://github.com/Sung-yy/KnaitheScripts.git` 。
-* SSH协议: `ssh://git@github.com/Sung-yy/KnaitheScripts.git` 。
+* HTTP协议: `https://github.com/Knaithe/KnaitheScripts.git` 。
+* Git协议: `git://github.com/Knaithe/KnaitheScripts.git` 。
+* SSH协议: `ssh://git@github.com/Knaithe/KnaitheScripts.git` 。
 
 ## 克隆版本库
 
 操作示例：
 
-    $ git clone git://github.com/Sung-yy/KnaitheScripts
+    $ git clone git://github.com/Knaithe/KnaitheScripts
 
 ## git的操作指南
 
