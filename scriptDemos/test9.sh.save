@@ -1,0 +1,35 @@
+#!/bin/bash
+#
+arry=()
+declare -i i=0
+declare -i max=0
+declare -i sum=0
+declare -i ave=0
+declare -i size=0
+for num  in ` awk '{print $1}' grade.txt`
+do
+	arry[$i]=$num
+	sum=$sum+$num	
+	size+=1
+	i+=1
+done
+declare -i i=0
+declare -i j=0
+declare -i mid=0
+mid=${arry[0]}
+for((;i<size-1;i++))
+do	for((j=0;j<size-i;j++))
+	do
+ddd		if [ ${arry[$j]} -lt ${arry[$j+1]} ]
+		then
+			mid=${arry[$j]}
+			arry[$j]=${arry[$j+1]}
+			arry[$j+1]=$mid
+		fi
+	done
+done
+declare -i i=0
+while [ $i -lt $size ]
+do
+	echo ${arry[$i]}
+done

